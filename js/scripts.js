@@ -17,17 +17,17 @@ var printSeries= function(series, countNum){
     var store=[];
     string=series[i];
     string=string.toString();
-    for (var j=0; j<=string; j++){
-      store=store.push(string.charAT(j));
-      if(store.includes('3')){
-        series[i].splice(i,1," I'm sorry Dave, I'm afraid I can't do that" );
-        return;
-      }else if (store.includes('2')) {
-        series[i].splice(i,1," Boop! " );
-        return;
-      }else if (stor.includes('1')) {
-        series[i].splice(i,1," Beep! " );
-        return;
+    for (var j=0; j<string.length; j++){
+      store.push(+string.charAt(j));
+      if(store.includes(3)){
+        series.splice(i,1," I'm sorry Dave, I'm afraid I can't do that" );
+
+      }else if (store.includes(2)) {
+        series.splice(i,1," Boop! " );
+
+      }else if (store.includes(1)) {
+        series.splice(i,1," Beep! " );
+
       }
     }
   }
@@ -65,7 +65,7 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
     var userInput= parseInt($("input#countNum").val());
-    debugger;
+    // debugger;
     if (isNaN(userInput)){
       $(".retry").show();
     }else{
