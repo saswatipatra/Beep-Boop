@@ -64,6 +64,7 @@ $(document).ready(function() {
 
     var userInput= parseInt($("input#countNum").val());
     if (isNaN(userInput)){
+        $("form").hide();
       $(".retry").show();
     }else{
     var series1= genrateSeries(userInput);
