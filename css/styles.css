@@ -3,12 +3,13 @@
 }
 .clickable {
   cursor: pointer;
-  color: #0088cc;
+  color: #DE118C;
 }
 h1{
   font-style: italic;
   text-align: center;
   color: #54CBD8;
+  text-decoration: underline;
 }
 .series{
   font-style: italic;
@@ -19,11 +20,9 @@ h1{
   width: 10em;
 }
 .image-showing{
-  position:absolute;
-}
-.container{
-  position: relative;
-}
+float: right;
+  }
+
 body,html{
   margin: 0;
   height: 100%;

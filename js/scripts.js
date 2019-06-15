@@ -55,10 +55,9 @@ function retryButton()
 
 $(document).ready(function() {
 
-  $("button").click(function(){
-    $(".image-showing").animate({
-      height: 'toggle'
-    });
+  $(".clickable").click(function() {
+  $(".image-showing").fadeToggle();
+  });
 
   $("form").submit(function(event) {
     event.preventDefault();
