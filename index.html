@@ -7,18 +7,28 @@
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
   </head>
-  <body>
+  <body class= "background">
     <div class="container">
       <h1>Beep-Boop Game...</h1>
+      <button>Start Animation</button>
+      <div class="image-showing">
+        <img src="https://thumbs.gfycat.com/LameWelltodoEidolonhelvum-size_restricted.gif">
+  </div>
+  <br>
+  <br>  
+  <br>
       <form>
         <label for="countNum">Enter a number till which you would like to print:</label>
-        <input id="countNum" class="form-control" type="text">
+        <br>
+        <input id="countNum" class="form-control" type="text" maxlength = "10">
+        <br><br>
         <button type="submit" class="btn">Print the series!!!</button>
       </form>
       <br>
       <br>
       <div class="result">
-        <p>result is : <span class= "series"></span></p>
+        <p>result is : <br><br><span class= "series"></span></p>
+        <br><br>
         <button onclick= "mainPageButton()" type="button" name="mainpage">Reload the Game...</button>
       </div>
       <br>
@@ -27,7 +37,7 @@
         <p>Kindly retry with real positive number</p>
         <br>
         <button onclick= "retryButton()" type="button" name="retryInputs">Retry</button>
-        
+
       </div>
     </div>
   </body>

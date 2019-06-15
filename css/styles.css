@@ -1,3 +1,42 @@
 .result, .retry{
   display: none;
 }
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+h1{
+  font-style: italic;
+  text-align: center;
+  color: #54CBD8;
+}
+.series{
+  font-style: italic;
+  text-align: center;
+  font-weight: bolder;
+}
+.form-control#countNum {
+  width: 10em;
+}
+.image-showing{
+  position:absolute;
+}
+.container{
+  position: relative;
+}
+body,html{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.background{
+  background: radial-gradient(circle, black, white);
+  /* background-image: url(https://techcrunch.com/wp-content/uploads/2018/10/GettyImages-1005882486.jpg?w=730&crop=1); */
+  margin:0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

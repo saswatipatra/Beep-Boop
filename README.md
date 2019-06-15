@@ -21,7 +21,7 @@ _For any syntax errors please review the Setup/Installation Requirements section
 
 ####Please insure you are in the correct directory in the terminal.
 
-Feel free to get in contact with any questions, concerns, or if you want to make contributions to the code at: *p403p403saswati@gmail.com_
+Feel free to get in contact with any questions, concerns, or if you want to make contributions to the code at: *p403saswati@gmail.com_
 
 ## Technologies Used
 
